@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy center registration</title>
+    <link rel="stylesheet" href="style.css"> <!-- Amabwiriza ya CSS niba uyakeneye -->
+</head>
+<body>
+    <h2>Healthy center registration</h2>
+
+    <!-- Form yo kohereza amakuru muri PHP -->
+    <form id="registerForm" method="POST" action="save_patient.php">
+        First Name: <input type="text" name="first_name" required><br>
+        Last Name: <input type="text" name="last_name" required><br>
+        Email: <input type="email" name="email" required><br>
+        Phone Number: <input type="text" name="phone_number" required><br>
+        Address: <input type="text" name="address" required><br>
+        <input type="submit" value="registration">
+    </form>
+
+    <p><a href="view_patients.php">view_all patient</a></p>
+</body>
+</html>
